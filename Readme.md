@@ -11,7 +11,6 @@
 
 ## Begin a beginner, what we need to understand about FP is
 * Data in FP should be immutable
-* Programs should be Stateless
 * Immutability and Statelessness are core concepts of FP to understand 
 
 ## What are they brining on table ? 
