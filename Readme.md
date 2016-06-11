@@ -18,10 +18,15 @@
 * Make concurrency easier
 * Parallel Processing 
 
+## DO I need to care about FP
+* Developers proficient in functional programming are going to be in large demand in the very near future
+* 
+
 ## Basic rules to follow to define Pure function :)
 * All the functions must accept at least one argument 
 * All the functions must return the value or another fucntion 
 * No Loops!!!
+* Idempotence
 
 ##### pure functions 
 * easily testable and less bug prone
