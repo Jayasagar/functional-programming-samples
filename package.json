@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --require babel-register --require babel-polyfill ./index.js"
+    "start": "node --require babel-register --require babel-polyfill ./index.js",
+    "taskr": "node --require babel-register --require babel-polyfill ./src/taskr-app/app-demo.js"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "babel-preset-es2016": "^6.0.11",
     "babel-register": "^6.9.0",
     "immutable": "^3.8.1",
-    "redux": "^3.5.2"
+    "redux": "^3.5.2",
+    "colors": "^1.1.2"
   }
 }
