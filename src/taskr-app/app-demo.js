@@ -27,6 +27,7 @@ const simulateApp = () => {
 //    Taskr.dispatch(streamOfActions[3]);
 
     Taskr.viewAllTasks();
+    Taskr.viewForecast();
 };
 
 simulateApp();

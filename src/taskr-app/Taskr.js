@@ -1,7 +1,7 @@
 import {today, tomorrow, nextWeek} from './utils/Time';
 import {cyan, red, green} from 'colors';
 import {toTasksArray, displayTask, notDone} from './model/Task';
-import {INITIAL_STATE} from './core';
+import {INITIAL_STATE, before} from './core';
 import reducer from './reducer/reducer';
 
 export const Taskr = {
