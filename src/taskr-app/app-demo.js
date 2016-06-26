@@ -28,6 +28,7 @@ const simulateApp = () => {
 
     Taskr.viewAllTasks();
     Taskr.viewForecast();
+    Taskr.viewNumAllTasks();
 };
 
 simulateApp();
