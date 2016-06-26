@@ -5,10 +5,10 @@ import {Taskr} from './Taskr';
 // Stream of events i.e. Array of events.
 export const streamOfActions = [
    addTask('Write Low Level Documentation for Search Screen', tomorrow()),
+   addTask('Fill in timesheets for the week of 16th of June', nextWeek()),
    addTask('Write Low Level Documentation for Search and Load operations', tomorrow()),
    addTask('Update meeting agenda', tomorrow()),
-   addTask('Fill in timesheets for the week of 10th of June', today()),
-   addTask('Fill in timesheets for the week of 16th of June', nextWeek())
+   addTask('Fill in timesheets for the week of 10th of June', today())
 ];
 
 const processEvent = (previousEvent, currentEvent) => {
